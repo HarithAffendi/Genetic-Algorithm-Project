@@ -1,0 +1,458 @@
+[
+    {
+        "course_code": "MATH-101",
+        "department_code": "MATH",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU001",
+            "STU002",
+            "STU003",
+            "STU004",
+            "STU005",
+            "STU006",
+            "STU007",
+            "STU008",
+            "STU009",
+            "STU010"
+        ]
+    },
+    {
+        "course_code": "MATH-102",
+        "department_code": "MATH",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU011",
+            "STU012",
+            "STU013",
+            "STU014",
+            "STU015",
+            "STU016",
+            "STU017",
+            "STU018",
+            "STU019",
+            "STU020"
+        ]
+    },
+    {
+        "course_code": "MATH-201",
+        "department_code": "MATH",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU001",
+            "STU011",
+            "STU021",
+            "STU022",
+            "STU023",
+            "STU024",
+            "STU025",
+            "STU002"
+        ]
+    },
+    {
+        "course_code": "MATH-202",
+        "department_code": "MATH",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU002",
+            "STU012",
+            "STU026",
+            "STU027",
+            "STU028",
+            "STU029",
+            "STU003",
+            "STU013"
+        ]
+    },
+    {
+        "course_code": "MATH-301",
+        "department_code": "MATH",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU021",
+            "STU022",
+            "STU030",
+            "STU031",
+            "STU032",
+            "STU004",
+            "STU014",
+            "STU024"
+        ]
+    },
+    {
+        "course_code": "STAT-101",
+        "department_code": "MATH",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU003",
+            "STU033",
+            "STU034",
+            "STU035",
+            "STU036",
+            "STU037",
+            "STU038",
+            "STU039"
+        ]
+    },
+    {
+        "course_code": "STAT-201",
+        "department_code": "MATH",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU030",
+            "STU033",
+            "STU040",
+            "STU041",
+            "STU042",
+            "STU043",
+            "STU005",
+            "STU015"
+        ]
+    },
+    {
+        "course_code": "MATH-401",
+        "department_code": "MATH",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU031",
+            "STU040",
+            "STU044",
+            "STU045",
+            "STU006",
+            "STU016",
+            "STU026",
+            "STU036"
+        ]
+    },
+    {
+        "course_code": "CS-101",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU001",
+            "STU002",
+            "STU011",
+            "STU012",
+            "STU046",
+            "STU047",
+            "STU048",
+            "STU049",
+            "STU050"
+        ]
+    },
+    {
+        "course_code": "CS-103",
+        "department_code": "CS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU001",
+            "STU003",
+            "STU011",
+            "STU013",
+            "STU046",
+            "STU051",
+            "STU052",
+            "STU053"
+        ]
+    },
+    {
+        "course_code": "CS-105",
+        "department_code": "CS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU002",
+            "STU004",
+            "STU012",
+            "STU014",
+            "STU047",
+            "STU054",
+            "STU055",
+            "STU007"
+        ]
+    },
+    {
+        "course_code": "CS-201",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU046",
+            "STU047",
+            "STU048",
+            "STU056",
+            "STU057",
+            "STU058",
+            "STU008",
+            "STU018"
+        ]
+    },
+    {
+        "course_code": "CS-203",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU049",
+            "STU050",
+            "STU051",
+            "STU056",
+            "STU059",
+            "STU060",
+            "STU009",
+            "STU019"
+        ]
+    },
+    {
+        "course_code": "CS-205",
+        "department_code": "CS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU052",
+            "STU053",
+            "STU054",
+            "STU057",
+            "STU061",
+            "STU062",
+            "STU010",
+            "STU020"
+        ]
+    },
+    {
+        "course_code": "CS-301",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU056",
+            "STU057",
+            "STU058",
+            "STU063",
+            "STU064",
+            "STU021",
+            "STU022",
+            "STU023"
+        ]
+    },
+    {
+        "course_code": "CS-303",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU059",
+            "STU060",
+            "STU061",
+            "STU065",
+            "STU066",
+            "STU024",
+            "STU025",
+            "STU026"
+        ]
+    },
+    {
+        "course_code": "CS-351",
+        "department_code": "CS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU062",
+            "STU063",
+            "STU064",
+            "STU067",
+            "STU068",
+            "STU027",
+            "STU028",
+            "STU029"
+        ]
+    },
+    {
+        "course_code": "CS-401",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU065",
+            "STU066",
+            "STU069",
+            "STU070",
+            "STU030",
+            "STU031",
+            "STU032",
+            "STU033"
+        ]
+    },
+    {
+        "course_code": "CS-420",
+        "department_code": "CS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU067",
+            "STU068",
+            "STU069",
+            "STU071",
+            "STU034",
+            "STU035",
+            "STU036",
+            "STU037"
+        ]
+    },
+    {
+        "course_code": "CS-499",
+        "department_code": "CS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU070",
+            "STU071",
+            "STU072",
+            "STU038",
+            "STU039",
+            "STU040",
+            "STU041",
+            "STU042"
+        ]
+    },
+    {
+        "course_code": "BUS-101",
+        "department_code": "BUS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU005",
+            "STU006",
+            "STU015",
+            "STU016",
+            "STU073",
+            "STU074",
+            "STU075",
+            "STU076",
+            "STU077"
+        ]
+    },
+    {
+        "course_code": "BUS-102",
+        "department_code": "BUS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU005",
+            "STU007",
+            "STU015",
+            "STU017",
+            "STU073",
+            "STU078",
+            "STU079",
+            "STU080"
+        ]
+    },
+    {
+        "course_code": "BUS-201",
+        "department_code": "BUS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU073",
+            "STU074",
+            "STU075",
+            "STU081",
+            "STU082",
+            "STU083",
+            "STU043",
+            "STU044"
+        ]
+    },
+    {
+        "course_code": "BUS-202",
+        "department_code": "BUS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU076",
+            "STU077",
+            "STU078",
+            "STU084",
+            "STU085",
+            "STU086",
+            "STU045",
+            "STU046"
+        ]
+    },
+    {
+        "course_code": "BUS-301",
+        "department_code": "BUS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU079",
+            "STU080",
+            "STU081",
+            "STU087",
+            "STU088",
+            "STU047",
+            "STU048",
+            "STU049"
+        ]
+    },
+    {
+        "course_code": "BUS-305",
+        "department_code": "BUS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU082",
+            "STU083",
+            "STU084",
+            "STU089",
+            "STU090",
+            "STU050",
+            "STU051",
+            "STU052"
+        ]
+    },
+    {
+        "course_code": "BUS-310",
+        "department_code": "BUS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU085",
+            "STU086",
+            "STU087",
+            "STU091",
+            "STU053",
+            "STU054",
+            "STU055",
+            "STU056"
+        ]
+    },
+    {
+        "course_code": "BUS-401",
+        "department_code": "BUS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU088",
+            "STU089",
+            "STU092",
+            "STU093",
+            "STU057",
+            "STU058",
+            "STU059",
+            "STU060"
+        ]
+    },
+    {
+        "course_code": "BUS-405",
+        "department_code": "BUS",
+        "duration_hours": 3,
+        "enrolled_students": [
+            "STU090",
+            "STU091",
+            "STU094",
+            "STU095",
+            "STU061",
+            "STU062",
+            "STU063",
+            "STU064"
+        ]
+    },
+    {
+        "course_code": "BUS-450",
+        "department_code": "BUS",
+        "duration_hours": 2,
+        "enrolled_students": [
+            "STU092",
+            "STU093",
+            "STU096",
+            "STU065",
+            "STU066",
+            "STU067",
+            "STU068",
+            "STU069"
+        ]
+    }
+]

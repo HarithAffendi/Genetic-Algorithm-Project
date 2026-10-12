@@ -1,0 +1,314 @@
+courseData = [
+  { "course_code": "MATH-101", "department_code": "MATH", "duration_hours": 3, "enrolled_students": ["STU001", "STU002", "STU003", "STU004", "STU005", "STU006", "STU007", "STU008", "STU009", "STU010"] },
+  { "course_code": "MATH-102", "department_code": "MATH", "duration_hours": 3, "enrolled_students": ["STU011", "STU012", "STU013", "STU014", "STU015", "STU016", "STU017", "STU018", "STU019", "STU020"] },
+  { "course_code": "MATH-201", "department_code": "MATH", "duration_hours": 3, "enrolled_students": ["STU001", "STU011", "STU021", "STU022", "STU023", "STU024", "STU025", "STU002"] },
+  { "course_code": "MATH-202", "department_code": "MATH", "duration_hours": 2, "enrolled_students": ["STU002", "STU012", "STU026", "STU027", "STU028", "STU029", "STU003", "STU013"] },
+  { "course_code": "MATH-301", "department_code": "MATH", "duration_hours": 3, "enrolled_students": ["STU021", "STU022", "STU030", "STU031", "STU032", "STU004", "STU014", "STU024"] },
+  { "course_code": "STAT-101", "department_code": "MATH", "duration_hours": 2, "enrolled_students": ["STU003", "STU033", "STU034", "STU035", "STU036", "STU037", "STU038", "STU039"] },
+  { "course_code": "STAT-201", "department_code": "MATH", "duration_hours": 3, "enrolled_students": ["STU030", "STU033", "STU040", "STU041", "STU042", "STU043", "STU005", "STU015"] },
+  { "course_code": "MATH-401", "department_code": "MATH", "duration_hours": 3, "enrolled_students": ["STU031", "STU040", "STU044", "STU045", "STU006", "STU016", "STU026", "STU036"] },
+
+  { "course_code": "CS-101", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU001", "STU002", "STU011", "STU012", "STU046", "STU047", "STU048", "STU049", "STU050"] },
+  { "course_code": "CS-103", "department_code": "CS", "duration_hours": 2, "enrolled_students": ["STU001", "STU003", "STU011", "STU013", "STU046", "STU051", "STU052", "STU053"] },
+  { "course_code": "CS-105", "department_code": "CS", "duration_hours": 2, "enrolled_students": ["STU002", "STU004", "STU012", "STU014", "STU047", "STU054", "STU055", "STU007"] },
+  { "course_code": "CS-201", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU046", "STU047", "STU048", "STU056", "STU057", "STU058", "STU008", "STU018"] },
+  { "course_code": "CS-203", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU049", "STU050", "STU051", "STU056", "STU059", "STU060", "STU009", "STU019"] },
+  { "course_code": "CS-205", "department_code": "CS", "duration_hours": 2, "enrolled_students": ["STU052", "STU053", "STU054", "STU057", "STU061", "STU062", "STU010", "STU020"] },
+  { "course_code": "CS-301", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU056", "STU057", "STU058", "STU063", "STU064", "STU021", "STU022", "STU023"] },
+  { "course_code": "CS-303", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU059", "STU060", "STU061", "STU065", "STU066", "STU024", "STU025", "STU026"] },
+  { "course_code": "CS-351", "department_code": "CS", "duration_hours": 2, "enrolled_students": ["STU062", "STU063", "STU064", "STU067", "STU068", "STU027", "STU028", "STU029"] },
+  { "course_code": "CS-401", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU065", "STU066", "STU069", "STU070", "STU030", "STU031", "STU032", "STU033"] },
+  { "course_code": "CS-420", "department_code": "CS", "duration_hours": 3, "enrolled_students": ["STU067", "STU068", "STU069", "STU071", "STU034", "STU035", "STU036", "STU037"] },
+  { "course_code": "CS-499", "department_code": "CS", "duration_hours": 2, "enrolled_students": ["STU070", "STU071", "STU072", "STU038", "STU039", "STU040", "STU041", "STU042"] },
+
+  { "course_code": "BUS-101", "department_code": "BUS", "duration_hours": 2, "enrolled_students": ["STU005", "STU006", "STU015", "STU016", "STU073", "STU074", "STU075", "STU076", "STU077"] },
+  { "course_code": "BUS-102", "department_code": "BUS", "duration_hours": 3, "enrolled_students": ["STU005", "STU007", "STU015", "STU017", "STU073", "STU078", "STU079", "STU080"] },
+  { "course_code": "BUS-201", "department_code": "BUS", "duration_hours": 3, "enrolled_students": ["STU073", "STU074", "STU075", "STU081", "STU082", "STU083", "STU043", "STU044"] },
+  { "course_code": "BUS-202", "department_code": "BUS", "duration_hours": 2, "enrolled_students": ["STU076", "STU077", "STU078", "STU084", "STU085", "STU086", "STU045", "STU046"] },
+  { "course_code": "BUS-301", "department_code": "BUS", "duration_hours": 3, "enrolled_students": ["STU079", "STU080", "STU081", "STU087", "STU088", "STU047", "STU048", "STU049"] },
+  { "course_code": "BUS-305", "department_code": "BUS", "duration_hours": 3, "enrolled_students": ["STU082", "STU083", "STU084", "STU089", "STU090", "STU050", "STU051", "STU052"] },
+  { "course_code": "BUS-310", "department_code": "BUS", "duration_hours": 2, "enrolled_students": ["STU085", "STU086", "STU087", "STU091", "STU053", "STU054", "STU055", "STU056"] },
+  { "course_code": "BUS-401", "department_code": "BUS", "duration_hours": 3, "enrolled_students": ["STU088", "STU089", "STU092", "STU093", "STU057", "STU058", "STU059", "STU060"] },
+  { "course_code": "BUS-405", "department_code": "BUS", "duration_hours": 3, "enrolled_students": ["STU090", "STU091", "STU094", "STU095", "STU061", "STU062", "STU063", "STU064"] },
+  { "course_code": "BUS-450", "department_code": "BUS", "duration_hours": 2, "enrolled_students": ["STU092", "STU093", "STU096", "STU065", "STU066", "STU067", "STU068", "STU069"] }
+]
+
+class Course:
+  course_code: str
+  department_code: str
+  duration_hours: int
+  enrolled_students: set[str]
+
+  def __init__(self, course_code: str, department_code: str, duration_hours: int, enrolled_students: set[str]):
+    self.course_code = course_code
+    self.department_code = department_code
+    self.duration_hours = duration_hours
+    self.enrolled_students = enrolled_students
+
+  def __eq__(self, other):
+    return isinstance(other, Course) and self.course_code == other.course_code
+
+  def __hash__(self):
+    return hash(self.course_code)
+
+  def __str__(self):
+    return f"{self.course_code}"
+
+  def __repr__(self):
+    return f"{self.course_code}"
+
+
+coursePool: list[Course] = [
+    Course(
+      i["course_code"],
+      i["department_code"],
+      i["duration_hours"],
+      set(i["enrolled_students"])
+    ) for i in courseData
+]
+
+import random
+
+POPULATION_SIZE = 30
+CHROMOSOME_LENGTH = 30
+CROSSOVER_RATE = 0.7
+MUTATION_RATE = 0.05
+GENERATIONS = 50
+
+def generate_random_chromosome():
+  # randomly genereate a chromosome that don't have the day and session / raw chromosome
+  init_chromosome = coursePool[:]
+  random.shuffle(init_chromosome)
+
+  # convert the raw chromosome into the structured chromosome (that has day and session)
+  chromosome = []
+  while(len(init_chromosome) != 0):
+    session1 = [init_chromosome[0], init_chromosome[1], init_chromosome[2]]
+    session2 = [init_chromosome[3], init_chromosome[4], init_chromosome[5]]
+    init_chromosome = init_chromosome[6:]
+    day = [session1, session2]
+    chromosome.append(day)
+
+  return chromosome
+
+def generate_initial_population():
+  population = [generate_random_chromosome() for _ in range(POPULATION_SIZE)]
+  return population
+
+IDEAL_SCORE = 3000
+TOTAL_SEAT_POOL = 30
+PENALTY_CLASH = 100  # Massive penalty for a student having two exams at once
+PENALTY_SEAT = 10     # Penalty per student over the 30-seat limit
+
+def evaluate_chromosome_fitness(chromosome):
+  seat_penalty_count = 0
+  clash_penalty_count = 0
+
+  for day in chromosome:
+    for session in day:
+
+      all_students_in_session = []
+      for course in session:
+        all_students_in_session.extend(course.enrolled_students)
+
+      # --- SEAT POOL PENALTY ---
+      total_headcount = len(all_students_in_session)
+      if total_headcount > TOTAL_SEAT_POOL:
+        # calculate how many students exceed the limit
+        oversheet_count = total_headcount - TOTAL_SEAT_POOL
+        seat_penalty_count += oversheet_count * PENALTY_SEAT
+
+      # --- CLASH PENALTY ---
+      unique_students_in_session = set(all_students_in_session)
+      duplicate_count = len(all_students_in_session) - len(unique_students_in_session)
+
+      if duplicate_count > 0:
+        clash_penalty_count += duplicate_count * PENALTY_CLASH
+  fitness_score = IDEAL_SCORE - seat_penalty_count - clash_penalty_count
+  return (max(1, fitness_score))
+
+def evaluate_population(population):
+  population_score = []
+
+  for chromosome in population:
+    score = evaluate_chromosome_fitness(chromosome)
+    population_score.append(score)
+
+  return population_score
+
+def roulette_wheel_selection(population, population_fitness):
+  total_fitness = sum(population_fitness)
+
+  # catch if the entire feneration is heavily penalized
+  if total_fitness <= len(population_fitness):
+    return random.choice(population)
+
+  # generate random spin value
+  spin_wheel = random.uniform(0, total_fitness)
+  running_sum = 0
+
+  for chromosome, fitness_score in zip(population, population_fitness):
+    running_sum += fitness_score
+    if running_sum >= spin_wheel:
+      return chromosome
+
+  return population[-1] # boundart fallback
+
+
+import copy
+
+def selection_phase(population, population_fitness):
+  # --- ELITISM ---
+  sorted_indeces = sorted(range(len(population_fitness)), key=lambda i: population_fitness[i], reverse=True) 
+
+  elite1 = copy.deepcopy(population[sorted_indeces[0]])
+  elite2 = copy.deepcopy(population[sorted_indeces[1]])
+
+  # --- ROULETTE SELECTION ---
+  selected_parent_pool = []
+  for _ in range(POPULATION_SIZE):
+    parent = roulette_wheel_selection(population, population_fitness)
+    selected_parent_pool.append(copy.deepcopy(parent))
+
+  return elite1, elite2, selected_parent_pool
+
+def matrix_to_flat(chromosome):
+  flat_chromosome = []
+  for day in chromosome:
+    for session in day:
+      flat_chromosome.extend(session)
+  return flat_chromosome
+
+def flat_to_matrix(flat_chromosome):
+  chromosome = []
+  while len(flat_chromosome) != 0:
+    session1 = [flat_chromosome[0], flat_chromosome[1], flat_chromosome[2]]
+    session2 = [flat_chromosome[3], flat_chromosome[4], flat_chromosome[5]]
+    flat_chromosome = flat_chromosome[6:]
+    day = [session1, session2]
+    chromosome.append(day)
+  return chromosome
+
+def repair_child(flat_child, coursePool):
+  course_count = {course: 0 for course in coursePool}
+  duplicate_index = []
+  
+  for course, i in zip(flat_child, range(len(flat_child))):
+    course_count[course] += 1
+  
+    if course_count[course] > 1:
+      duplicate_index.append(i)
+  
+  missing_courses = []
+  for course in coursePool:
+    if course_count[course] == 0:
+      missing_courses.append(course)
+  
+  random.shuffle(missing_courses)
+
+  for i in duplicate_index:
+    flat_child[i] = missing_courses.pop()
+  
+  return flat_child
+
+def singlepoint_crossover(parent1, parent2):
+  # check if the crossover occours
+  if random.random() > CROSSOVER_RATE:
+    return parent1, parent2
+
+  # get the length
+  flat_parent1 = matrix_to_flat(parent1)
+  flat_parent2 = matrix_to_flat(parent2)
+
+  num_of_slot = len(flat_parent1)
+
+  crossover_point = random.randint(0, num_of_slot - 1)
+  flat_child1 = flat_parent1[:crossover_point] + flat_parent2[crossover_point:]
+  flat_child2 = flat_parent2[:crossover_point] + flat_parent1[crossover_point:]
+
+  # repair operation
+  flat_child1 = repair_child(flat_child1, coursePool)
+  flat_child2 = repair_child(flat_child2, coursePool)
+
+  child1 = flat_to_matrix(flat_child1)
+  child2 = flat_to_matrix(flat_child2)
+
+  return child1, child2
+
+def mutation(chromosome):
+  if random.random() > MUTATION_RATE:
+    return chromosome
+
+  flat_chromosome = matrix_to_flat(chromosome)
+  point1 = random.randint(0, len(flat_chromosome) - 1)
+  point2 = random.randint(0, len(flat_chromosome) - 1)
+
+  flat_chromosome[point1], flat_chromosome[point2] = flat_chromosome[point2], flat_chromosome[point1]
+
+  return flat_to_matrix(flat_chromosome)
+
+import matplotlib.pyplot as plt
+
+def plot_fitness_history(avg_history, best_history):
+  generations = range(1, len(avg_history) + 1)
+
+  plt.plot(generations, avg_history, label='Average Fitness', color='blue', linewidth=2)
+
+  plt.plot(generations, best_history, label='Best Fitness', color='green', linestyle='--', linewidth=2)
+
+  plt.xlabel('Generation')
+  plt.ylabel('Fitness Score')
+  plt.title('Genetic Algorithm Performance over Generations')
+  plt.legend(loc='lower right')
+  plt.grid(True, linestyle=':', alpha=0.6)
+
+  plt.tight_layout()
+  
+  return plt.show()
+
+
+def genetic_algorithm():
+  population = generate_initial_population()
+  
+  # --- Track progress history ---
+  avg_fitness_history = []
+  best_fitness_history = []
+  
+  for generation in range(GENERATIONS):
+    fitness_values = evaluate_population(population)
+
+    # --- Record progress ---
+    avg_fitness_history.append(sum(fitness_values) / POPULATION_SIZE)
+    best_fitness = max(fitness_values)
+    best_fitness_history.append(best_fitness)
+
+    elite1, elite2, selected_parent_pool = selection_phase(population, fitness_values)
+
+    new_population = [elite1, elite2]
+    while len(new_population) < POPULATION_SIZE:
+      parent1 = random.choice(selected_parent_pool)
+      parent2 = random.choice(selected_parent_pool)
+      child1, child2 = singlepoint_crossover(parent1, parent2)
+      child1 = mutation(child1)
+      child2 = mutation(child2)
+      new_population.extend([child1, child2])
+
+    population = new_population
+
+    fitness_values = evaluate_population(population)
+    best_fitness = max(fitness_values)
+    best_chromosome = population[fitness_values.index(best_fitness)]
+    print(f"Generation {generation + 1}: Best Fitness = {best_fitness}")
+  
+  best_index = fitness_values.index(max(fitness_values))
+  best_chromosome = population[best_index]
+  print(f"Best Chromosome: {best_chromosome}")
+  print(f"Best Fitness: {max(fitness_values)}")
+
+  return avg_fitness_history, best_fitness_history
+
+
+if __name__ == "__main__":
+  avg_hist, best_hist = genetic_algorithm()
+
+  plot_fitness_history(avg_hist, best_hist)
